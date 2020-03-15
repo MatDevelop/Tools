@@ -1,2 +1,2 @@
 # Tools
-Narzędzia
+Fragmenty kodu
