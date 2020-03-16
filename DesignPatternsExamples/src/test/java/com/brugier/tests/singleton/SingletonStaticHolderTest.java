@@ -1,4 +1,4 @@
-package com.brugier.tests;
+package com.brugier.tests.singleton;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import java.util.concurrent.ExecutorService;
@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.junit.jupiter.api.Test;
 
-import com.brugier.SingletonStaticHolder;
+import com.brugier.singleton.SingletonStaticHolder;
 
 public class SingletonStaticHolderTest {
 

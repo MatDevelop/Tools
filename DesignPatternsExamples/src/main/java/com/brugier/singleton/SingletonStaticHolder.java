@@ -1,4 +1,4 @@
-package com.brugier;
+package com.brugier.singleton;
 
 public class SingletonStaticHolder {
 	private SingletonStaticHolder() {

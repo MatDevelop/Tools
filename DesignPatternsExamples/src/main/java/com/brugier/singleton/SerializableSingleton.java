@@ -1,4 +1,4 @@
-package com.brugier;
+package com.brugier.singleton;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;

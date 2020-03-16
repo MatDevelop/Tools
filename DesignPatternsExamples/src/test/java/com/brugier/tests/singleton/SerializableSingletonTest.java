@@ -1,4 +1,4 @@
-package com.brugier.tests;
+package com.brugier.tests.singleton;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
-import com.brugier.SerializableSingleton;
+import com.brugier.singleton.SerializableSingleton;
 
 public class SerializableSingletonTest {
 
