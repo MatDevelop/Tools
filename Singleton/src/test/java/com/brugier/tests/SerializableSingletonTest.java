@@ -9,6 +9,7 @@ import java.io.ObjectOutputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 
 import com.brugier.SerializableSingleton;
@@ -29,9 +30,12 @@ public class SerializableSingletonTest {
 				ObjectInputStream ois = new ObjectInputStream(fis)) {
 			secondInstance = (SerializableSingleton) ois.readObject();
 		}
-		
-		Files.deleteIfExists(Paths.get("./SingletonSimpleLazy.ser"));
-		
+
 		assertEquals(firstInstance, secondInstance);
+	}
+
+	@AfterEach
+	public void deleteFile() throws Exception {
+		Files.deleteIfExists(Paths.get("./SingletonSimpleLazy.ser"));
 	}
 }
