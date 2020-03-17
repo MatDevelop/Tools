@@ -1,4 +1,4 @@
-package com.brugier.test.builder;
+package com.brugier.tests.builder;
 
 import java.util.ArrayList;
 

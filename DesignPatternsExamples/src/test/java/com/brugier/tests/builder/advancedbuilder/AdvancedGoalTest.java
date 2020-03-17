@@ -1,4 +1,4 @@
-package com.brugier.test.builder.advancedbuilder;
+package com.brugier.tests.builder.advancedbuilder;
 
 import org.junit.jupiter.api.Test;
 
